@@ -1,3 +1,54 @@
+# Atividade prática — Engenharia Reversa aplicada ao NOXBYTE
+
+## Diagrama geral da engenharia reversa
+
+Este seria o melhor diagrama para apresentar na atividade:
+
+```text
+NOXBYTE
+│
+↓
+SISTEMA EM FUNCIONAMENTO
+│
+↓
+┌──────────────────┐
+│     USUÁRIO      │
+└────────┬─────────┘
+         │
+         ↓
+    🌐 INTERNET
+         │
+         ↓
+┌──────────────────┐
+│     FRONTEND     │
+│  Interface Web   │
+└────────┬─────────┘
+         │
+         │ Requisições HTTP
+         ↓
+┌──────────────────┐
+│   API / BACKEND  │
+│     Express      │
+└────────┬─────────┘
+         │
+         ↓
+┌──────────────────┐
+│      PRISMA      │
+└────────┬─────────┘
+         │
+         ↓
+┌──────────────────┐
+│     POSTGRESQL   │
+│   Banco de Dados │
+└──────────────────┘
+
+↑ Engenharia Reversa ↓
+
+Sistema pronto → observar → identificar → analisar → compreender
+
+
+---
+
 ## Identificação dos componentes do NOXBYTE
 
 | **Conceito** | **Como aparece no NOXBYTE** |
