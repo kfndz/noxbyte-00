@@ -4,6 +4,7 @@
 
 Este seria o melhor diagrama para apresentar na atividade:
 
+\`\`\`
 NOXBYTE
 │
 ▼
@@ -11,40 +12,42 @@ SISTEMA EM FUNCIONAMENTO
 │
 ▼
 ┌──────────────────┐
-│ USUÁRIO │
+│     USUÁRIO      │
 └────────┬─────────┘
-│
-▼
-🌐 INTERNET
-│
-▼
+         │
+         ▼
+      🌐 INTERNET
+         │
+         ▼
 ┌──────────────────┐
-│ FRONTEND │
-│ Interface Web │
+│     FRONTEND     │
+│  Interface Web   │
 └────────┬─────────┘
-│
-Requisições HTTP
-│
-▼
+         │
+  Requisições HTTP
+         │
+         ▼
 ┌──────────────────┐
-│ API / BACKEND │
-│ Express │
+│  API / BACKEND   │
+│     Express      │
 └────────┬─────────┘
-│
-▼
+         │
+         ▼
 ┌──────────────────┐
-│ PRISMA │
+│      PRISMA      │
 └────────┬─────────┘
-│
-▼
+         │
+         ▼
 ┌──────────────────┐
-│ POSTGRESQL │
-│ Banco de Dados │
+│    POSTGRESQL    │
+│  Banco de Dados  │
 └──────────────────┘
 
- ↑ Engenharia Reversa ↓
+     ↑ Engenharia Reversa ↓
 
- 
+Sistema pronto → observar → identificar → analisar → compreender
+\`\`\`
+
 ## Identificação dos componentes do NOXBYTE
 
 | Conceito       | Como aparece no NOXBYTE |
